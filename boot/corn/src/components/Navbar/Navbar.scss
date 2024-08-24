@@ -1,0 +1,10 @@
+@import "../Todo/Todo";
+
+.text-color{
+  color: slategray;
+  &:hover{
+    color:$btnHover ;
+  }
+  
+
+}

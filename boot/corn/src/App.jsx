@@ -1,12 +1,14 @@
 import './App.scss'
-import Navigation from './components/Navbar/Navigation'
+import Navbar from './components/Navbar/Navbar'
+import Todo from './components/Todo/Todo'
 
 
 
 export default function App() {
   return (
    <>
-    <Navigation/>
+   <Navbar/>
+   <Todo/>
    </>
   )
 }

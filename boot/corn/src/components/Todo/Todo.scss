@@ -1,0 +1,22 @@
+$backColor : hsl(90, 10%, 96%) ;
+$btnColor: #ee6262;
+$btnHover:#fb0707;
+
+.bg-color{
+  background-color: $backColor;
+}
+
+.btn-color{
+background-color: $btnColor;
+color: white;
+font-weight: 600;
+&:hover{
+  background-color:$btnHover ;
+  color: white;
+  box-shadow: 1px 1px 4px black;
+}
+&:active{
+  background-color: transparent;
+  border:1px solid #f53b3b;
+}
+}
