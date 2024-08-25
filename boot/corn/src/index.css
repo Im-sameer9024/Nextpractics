@@ -10,5 +10,6 @@
 body{
   width: 100vw;
   height: auto;
-  overflow-x:hidden;
+  overflow:hidden;
+  background-color:hsl(90, 10%, 96%) ; ;
 }

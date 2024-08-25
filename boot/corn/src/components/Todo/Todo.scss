@@ -1,15 +1,15 @@
-$backColor : hsl(90, 10%, 96%) ;
+ 
 $btnColor: #ee6262;
 $btnHover:#fb0707;
 
-.bg-color{
-  background-color: $backColor;
-}
+
 
 .btn-color{
 background-color: $btnColor;
 color: white;
+padding: 5px 5px;
 font-weight: 600;
+
 &:hover{
   background-color:$btnHover ;
   color: white;
@@ -19,4 +19,17 @@ font-weight: 600;
   background-color: transparent;
   border:1px solid #f53b3b;
 }
+}
+
+#message{
+  font-size:11px;
+  position: relative;
+  padding-left: 10px;
+}
+
+sup{
+position: absolute;
+font-size: 20px;
+top: 7px;
+left: 0;
 }
