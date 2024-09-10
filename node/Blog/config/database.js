@@ -10,8 +10,8 @@ const dbConnect = () =>{
   .then(()=>{
     console.log("Database is Connected")
   })
-  .catch((error)=>{
-    console.log(error)
+  .catch((err) =>{
+    console.log(err.message)
     process.exit(1)
   })
 }
